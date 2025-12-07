@@ -1,0 +1,18 @@
+#目标位置(x,y)和最大速度
+float64 target_x
+float64 target_y
+float64 max_linear_vel
+float64 max_angular_vel
+---
+#结果：是否成功，最终位姿
+bool success
+float64 final_x
+float64 final_y
+float64 final_yaw
+string message
+---
+#反馈：当前位姿，剩余距离
+float64 current_x
+float64 current_y
+float64 current_yaw
+float64 remaining_distance

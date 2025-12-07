@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_tf_homework</name>
+  <version>0.0.0</version>
+  <description>TF2 transformation homework package</description>
+  <maintainer email="wassabi@todo.todo">wassabi</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- 构建工具依赖 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- CMakeLists.txt 中 find_package 的所有依赖 -->
+  <depend>rclcpp</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>rclcpp_action</depend>
+  <depend>homework_interface</depend>
+  <depend>tf2</depend>
+
+  <!-- 测试依赖 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
